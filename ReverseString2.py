@@ -6,7 +6,7 @@ def reverse_string(string):
     return string[::-1] #Reverse the sting
 
 s = st.text_input("Input String: ")#Allow the user to input their own string
-st.button('Reverse string',reverse_string*2)
+st.button('Reverse string',reverse_string)
 
 
 #Print the reversed string

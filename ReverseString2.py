@@ -10,4 +10,4 @@ n = st.number_input("How many times to print string: ")#Allow the user to input 
 
 
 #Print the reversed string
-st.write("The revsered text is:",reverse_string(s*n))
+st.write("The revsered text is:",reverse_string(s)*n)

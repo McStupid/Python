@@ -2,7 +2,7 @@
 import streamlit as st
 st.image('UC Logo.jpeg')
 st.title('Reverse String')
-st.header('By Aiden Moses')
+st.subheader('By Aiden Moses')
 
 #create function to reverse string
 def reverse_string(string):

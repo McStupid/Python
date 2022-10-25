@@ -11,4 +11,4 @@ n = st.number_input("input string licing amount: ")#Allow the user to input thei
 
 #Print the reversed string
 st.write("The revsered text is:",reverse_string(s))
-st.color_picker('Pick a color')
+st.color_picker('Pick a color',(s))

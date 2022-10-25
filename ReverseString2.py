@@ -7,7 +7,11 @@ st.subheader('By Aiden Moses')
 #create function to reverse string
 def reverse_string(string):
     return string[::-1] #Reverse the sting
-  
+
+with st.spinner(text='In progress'):
+    time.sleep(5)
+    st.success('Done')
+    
 s = st.text_input("Input String: ")#Allow the user to input their own string
 st.button('Reverse string',reverse_string)
 

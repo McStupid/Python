@@ -13,4 +13,4 @@ st.button('Reverse string',reverse_string)
 
 #Print the reversed string
 st.write("The revsered text is:",reverse_string(s))
-st.image('./header.png')
+st.image('UC Logo.jpeg')

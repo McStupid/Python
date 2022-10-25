@@ -1,6 +1,6 @@
 #import libaries
 import streamlit as st
-
+st.image('UC Logo.jpeg')
 st.title('Reverse String')
 st.header('By Aiden Moses')
 
@@ -13,4 +13,4 @@ st.button('Reverse string',reverse_string)
 
 #Print the reversed string
 st.write("The revsered text is:",reverse_string(s))
-st.image('UC Logo.jpeg')
+

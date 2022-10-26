@@ -7,7 +7,7 @@ st.title('Reverse String')
 st.subheader('By Aiden Moses')
 
 #create function to reverse string
-def reverse_string(string):
+def test_reverse_string(string):
     return string[::-1] #Reverse the sting by using string slice and reversing the output of he string
 
 s = st.text_input("Input String: ")#Allow the user to input their own string

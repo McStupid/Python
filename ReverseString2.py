@@ -17,7 +17,7 @@ test_str = s
 Strlen = len([ele for ele in test_str if ele.isalpha()])
 
 #test string length
-def test_string_count:
+def test_string_count():
   assert Strlen == reverse_string(s)
 
 #Print the reversed string

@@ -9,9 +9,9 @@ def reverse_string(string):
     return string[::-1] #Reverse the sting
 
 s = st.text_input("Input String: ")#Allow the user to input their own string
-st.button('Reverse string',reverse_string)
+st.button('Reverse string',btn)
 
     
 #Print the reversed string
-st.write("The reversed text is:",reverse_string(s))
+btn = st.write("The reversed text is:",reverse_string(s))
 

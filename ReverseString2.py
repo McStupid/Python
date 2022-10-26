@@ -13,5 +13,5 @@ st.button('Reverse string',reverse_string)
 
     
 #Print the reversed string
-st.write("The revsered text is:",reverse_string(s))
+st.write("The reversed text is:",reverse_string(s))
 

@@ -16,6 +16,7 @@ def main():
        #Print the reversed strin
     btn = st.write("The reversed text is:",reverse_string(s))
     st.button('Reverse string',btn) #button code that allos the user to presses and reverse string
+main()
 
     
 
